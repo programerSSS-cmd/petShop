@@ -1,3 +1,5 @@
+/*Setting up a header structure and assigning some attributes to the objects it contains*/
+
 *{
 	margin:0;
 }
@@ -21,19 +23,30 @@ li{
 	position: relative;
 	margin: 10px;
 	background-color: rgba(0, 0, 0, 0.5);
-	color: #ff7f00;
 	border-radius: 10px;
 	list-style-type: none;
 	display: inline-flex;
 	padding: 10px;
-	font-family: Arial, sans-serif ;
+	font-family: Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bolder;
 
 
 }
+a.btnNavbar{
+	text-decoration: none;
+	color: #ff7f00; 
+}
 img#logo{
 	position: relative;
 	width: 358px;
 	height: 200px;
+}
+
+/*Configurando o carrousel*/
+
+img.imgCarrousel{
+	position: relative;
+	width: 80%;
+	height: 80%;
 }

@@ -5,23 +5,56 @@
 	<title>petShop</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.min.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.theme.css">
+
+	
 </head>
 <body>
 	<header>
 		<nav>
 			<img src="img/logo.png" id="logo">
 			<ul id="menu">
-				<li>Home</li>
-				<li>Services</li>
-				<li>Photos</li>
-				<li>Contact</li>
-				<li>About</li>
+				<li><a href="index.html" class="btnNavbar">	Home	</a></li>
+				<li><a href="#" class="btnNavbar">	Services</a></li>
+				<li><a href="#" class="btnNavbar">	Photos	</a></li>
+				<li><a href="#" class="btnNavbar">	Contact	</a></li>
+				<li><a href="#" class="btnNavbar">	About	</a></li>
 			</ul>
 		</nav>
 	</header>
 
+	<section id="content">
+	<div class="gallery autoplay items-3"> 
+
+		<div id="item-1" class="control-operator"> </div>
+		<div id="item-2" class="control-operator"> </div>
+		<div id="item-3" class="control-operator"> </div>
+
+		<figure class="item">
+			 	
+			<img src="img/img1Carrousel.png" class="imgCarrousel">
+		</figure>
+
+		<figure class="item">
+			
+			<img src="img/img2Carrousel.png" class="imgCarrousel">
+		</figure>
 
 
+		<figure class="item">
+			
+			<img src="img/img3Carrousel.png" class="imgCarrousel">
+		</figure>
+
+		<div class="controls">
+			<a href="#item-1" class="control-button">.</a>
+			<a href="#item-2" class="control-button">.</a>
+			<a href="#item-3" class="control-button">.</a>
+		</div>
+
+	</div>
+	</section>
 
 	<footer>
 
