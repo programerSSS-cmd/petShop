@@ -1,1 +1,2 @@
-https://www.petz.com.br/ - images to carrousel
+https://www.petz.com.br/ - 
+	I used this site as a reference to have a base for a website for petshops
