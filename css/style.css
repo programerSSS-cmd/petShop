@@ -7,7 +7,7 @@ nav{
 	border: 1px solid rgba(255, 255, 255, 0.0);
 	width: 100%;
 	height: 200px;
-	background-image: url(../img/fundoNav.jpg);
+	background-image: url(../img/browserBackground.jpg);
 
 }
 body{
@@ -28,8 +28,64 @@ ul#smenu{
 	bottom: 100%;
 }
 
+/* Config the servicesl */
+ul#mnuServices{
+	border: 1px solid red;
+	margin: 30px 23%;
+	position: relative;
+	width: 50%;
+	height: 800px;
+}
+li.liServices{
+	border: 1px solid blue;
+	position: relative;
+	margin: 10px 8%;
+	list-style-type: none;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	width: 75%;
+	height: 28%;
+	
+}
+figure.fotoComLegenda{
+	position: relative;
+	display: inline-flex;
+	left: 20px;
+	width: 361px;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
 
-li{
+figure.fotoComLegenda figcaption{
+	text-align: left;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	color: white;
+	transition: opacity 1s;
+	
+}
+figure.fotoComLegenda:hover figcaption{
+	opacity: 1;
+}
+img.imgServices{
+	position: relative;
+	width: 100%;
+	height: 80%;
+		
+}
+h3#titleServices{
+	position: relative;
+	
+
+}
+
+/////////////////////////////////////////**///////
+
+li.mnuPrincipal{
 	position: relative;
 	margin: 10px;
 	background-color: rgba(0, 0, 0, 0.5);
